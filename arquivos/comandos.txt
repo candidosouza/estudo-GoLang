@@ -1,0 +1,5 @@
+go env
+mostra as variáveis de ambiente do go
+
+go env GOPATH
+mostra o valor da variável
