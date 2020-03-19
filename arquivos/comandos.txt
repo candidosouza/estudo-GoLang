@@ -3,3 +3,20 @@ mostra as variáveis de ambiente do go
 
 go env GOPATH
 mostra o valor da variável
+
+go help get
+mostra as intruções de uso do comando
+
+go version
+mostra a versão do go instalada
+
+
+documentação offline
+---------------------
+instalar
+go get golang.org/x/tools/cmd/godoc
+
+sudo apt install golang-go.tools
+
+godoc -http=:6060
+mostra a documentação offline na porta 6060
