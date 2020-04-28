@@ -17,5 +17,4 @@ func main() {
 	http.HandleFunc("/hora-certa", horaCerta)
 	log.Println("Server Executando...")
 	log.Fatal(http.ListenAndServe(":3000", nil))
-
 }
